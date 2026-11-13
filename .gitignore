@@ -1,0 +1,39 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+*.py[cod]
+.mypy_cache/
+.ruff_cache/
+
+# Node / frontend
+node_modules/
+.next/
+dist/
+build/
+coverage/
+
+# IDE and system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Do not commit real customer files, recordings or local imports
+data/private/
+uploads/
+exports/
+tmp/
+*.log
